@@ -1,10 +1,5 @@
 # hangouts-bot
-bot for hangouts
 
-code is a mess, i'm a mess, my life is a mess, everything is a mess
+for of YellowPapaya's hangoutsbot
 
-**TODO:**
-
-Prestige Shop
-
-Stocks
+added blackjack features.
