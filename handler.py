@@ -17,7 +17,7 @@ from utils import *
 class Handler:
 
     keywords = {
-        "testblackjack": "currently-online",
+        "test-trivia": "currently-online",
 
     }
     images = {
@@ -34,7 +34,6 @@ class Handler:
             "/reset": self.reset,
             "/id": self.id_,
             "/kick": self.kick,
-            "/blackjack": self.kick,
         }
         self.cooldowns = defaultdict(dict)
         self.admins = [
