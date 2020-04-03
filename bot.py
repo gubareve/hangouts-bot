@@ -41,7 +41,7 @@ class Bot:
         userData = self.handler.data["users"]
 
         if isinstance(event, hangups.ChatMessageEvent) and (not user.is_self):
-            if userID in userData and event.text.strip().lower() != "/blackjack":
+            if userID in userData and event.text.strip().lower() != "/blackjackreset":
                 userData[userID]["blackjackreset"] = 0
 
             strippedText = event.text.strip().lower()
